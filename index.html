@@ -432,14 +432,23 @@
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    <!-- Label for Name -->
+                                    <label for="nameInput">Your Name:</label>
+                                    <input type="text" id="nameInput" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
                                 </div>
+                                
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    <!-- Label for Email -->
+                                    <label for="emailInput">Your Email:</label>
+                                    <input type="email" id="emailInput" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
                                 </div>
+                                
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                    <!-- Label for Mobile -->
+                                    <label for="mobileInput">Your Mobile:</label>
+                                    <input type="text" id="mobileInput" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
                                 </div>
+                                
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
                                         <option selected>Choose Doctor</option>
@@ -450,6 +459,7 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date" data-target-input="nearest">
+                                        <label for="dateInput">Choose a Date:</label>
                                         <input type="text"
                                             class="form-control border-0 datetimepicker-input"
                                             placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
